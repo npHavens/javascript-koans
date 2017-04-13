@@ -26,7 +26,11 @@ describe("About Arrays", function() {
     expect(array).toEqual([1, 2]);
     
     array.push(3);
+<<<<<<< HEAD
     expect(array).toEqual([1, 2, 3]);
+=======
+    expect(array).toEqual([1, 2, 3]);
+>>>>>>> 65368b2949047f572253bfe87e8ed6ded578ffd2
   });
 
   it("should understand array length", function() {
