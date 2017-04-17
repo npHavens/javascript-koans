@@ -106,7 +106,10 @@ describe("About Functions", function() {
       // An internal comment
       return a * b;
     };
-    console.log(multiply.toString());
-    expect(multiply.toString()).toBe(String(multiply));
+
+    expect(multiply.toString()).toBe(`function (a, b) {
+      // An internal comment
+      return a * b;
+    }`)
   });    
 });
